@@ -1,15 +1,16 @@
 :root {
     --items-count: 6;
-    --width: 170px;
-    --height: 200px;
-    --duration: 16s;
+    --width: 70px;
+    --height: 100px;
+    --duration: 25s;
 }
 
 .slider {
-    width: 100%;
+    width: 81%;
     height: var(--height);
     position: relative;
     top: 1800px;
+    left:150px;
     overflow: hidden;
 }
 

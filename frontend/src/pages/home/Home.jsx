@@ -7,6 +7,8 @@ import SpendingsTable from "./spendingsTable/SpendingsTable";
 import HomePageUserOptions from "./homePageUserOptions/HomePageUserOptions";
 import VectorialIlustration from "./vectorialIlustration/VectorialIlustration";
 import SliderAnimation from "./sliderAnimation/SliderAnimation";
+import Portal from "./portal/Portal";
+import Portal2 from "./portal2/Portal2";
 
 
 export default function Home() {
@@ -77,6 +79,8 @@ export default function Home() {
             <SpendingsStatistic data={mockData} />
             <VectorialIlustration />
             <SliderAnimation/>
+            <Portal/>
+            <Portal2/>
         </>
     );
 }
